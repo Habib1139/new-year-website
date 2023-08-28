@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,600;0,700;1,500&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-image: url(images/banner/banner2.png);
+    background-position: left;
+    background-size: cover;
+    
+   width: 100%;
+   height: 800px;
+   
+}
+
+.hero{
+   position: relative;
+}
+.hero-text{
+    position: absolute;
+   top: 300px;
+   right: 200px;
+   text-align: right;
+  
+   
+}
+.h1-last{
+    margin-bottom: 10px;
+}
+.btn-contact{
+    background-color: #F15B22;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* main section start */
+.main-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 130px;
+}
+.h1-main,.p-main{
+    margin-bottom: 10px;
+}
+.main-text i{
+    color: green;
+   
+}
+
+/* plan section start */
+.plan-more{
+    margin-top: 100px;
+    padding: 0 130px;
+}
+.plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.h1-plan{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+.our-plan{
+    text-align: center;
+}
+
+/* Mindset section */
+.our-mindset{
+   margin: 100px 130px;
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+    border-radius: 10px;
+}
+.mindset{
+    position: absolute;
+    top: 40px;
+    left: 35px;
+}
+.btn-call{
+    background-color: #fff;
+    color: #F15B22;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* footer menu start */
+footer{
+    background: #000;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 130px;
+}
+.menu-one{
+    color: #fff;
+}
+.menu-one h1{
+    margin-bottom: 15px;
+}
+.menu-one img{
+    margin-right: 10px;
+}
+.menu-two{
+    color: #fff;
+}
+.menu-two h1{
+    margin-bottom: 15px;
+}
+.menu-two input{
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+}
